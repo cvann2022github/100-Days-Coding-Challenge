@@ -1,11 +1,11 @@
 
-#include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
-#include <conio.h>
 // for sleep() function
 #include <time.h>
 #include <unistd.h>
 #include <stdlib.h>
+using namespace std;
 int main()
 {
 int hour, minute, second;
@@ -14,9 +14,9 @@ while(1)
 {
 // clear output screen
 // Incase you get an error here use system("clear") instead of system("cls")
-system("clear");
+system("cls");
 // print time in HH : MM : SS format
-printf("%02d : %02d : %02d ",hour,minute,second);
+cout<<"%02d : %02d : %02d "<<hour,minute,second<<
 // clear output buffer in gcc
 fflush(stdout);
 // increase second
