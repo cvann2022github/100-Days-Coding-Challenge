@@ -1,19 +1,20 @@
 
-#include <bits/stdc++.h>
-using namespace std;
+#include<iostream.h>
+#include<stdio.h>
+#include<bits/stdc++.h>
 void Half_Adder(int A,int B){
     int Sum , Carry;
     Sum = A ^ B;
     Carry = A & B;
-    cout<<"Sum = "<< Sum << endl;
-    cout<<"Carry = "<<Carry<< endl;
+    printf("Sum = ",Sum);
+    printf("Carry = ",Carry);
 }
 void Full_Adder(int X,int Y,int Z_In){
     int Sum , Z_Out;
     Sum = Z_In ^ (X ^Y);
     Z_Out = (X & Y) | (Y & Z_In) | (X & Z_In);
-    cout<<"Sum = "<< Sum <<endl;
-    cout<<"C-Out = "<< Z_Out <<endl;
+    printf("Sum = ",Sum );
+    printf("C-Out = ",Z_Out);
   }
   
 int main() {
