@@ -1,15 +1,12 @@
-# 100-Days-Coding-Challenge
-Ann's new challenge. 
-Code on Even and odd numbers.
+Welcome to the 100-Days-Coding-Challenge wiki!
 
-#include<iostream>
-using namespace std;
-int main()
-{
-        int num = 99;
-        if(num%2==0)
-        cout<<num<<" is even. ";
-        else
-        cout<<num<<" is odd. ";
-        return 0;
-}
+even odd function
+print the truth table
+print half adder and full adder
+print half subtractor and full subtractor
+print the number system conversion
+print binary arithmetic rules and sum
+print weighted codes (binary code to BCD code)
+print unweighted codes(excess 3 codes to grey code)
+print equation with truth table
+design 2-bit digital comparator using gates
