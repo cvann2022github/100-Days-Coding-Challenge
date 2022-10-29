@@ -1,19 +1,19 @@
-import java.util.Scanner;
-class Add
-{
-public static void main(String[] arg)
-{
-int a,b,c;
-Scanner sc=new Scanner(System.in);
-System.out.println("Enter first number");
-a=sc.nextInt();
-System.out.println("Enter second number");
-b=sc.nextInt();
-c=addition(a,b);
-System.out.println(" Addition of two numbers is : "+c);
-}
-static int addition(int x,int y)
-{
-	return x+y;
-}
+
+class Example3 {
+	static int arr[] = { 12, 3, 4, 15, 34667 };
+	// method for sum of elements in an array
+	static int sum()
+	{
+		int sum = 0; // initialize sum
+		int i;
+		// Iterate through all elements and add them to sum
+		for (i = 0; i < arr.length; i++)
+			sum += arr[i];
+		return sum;
+	}
+	// Driver method
+	public static void main(String[] args)
+	{
+		System.out.println("Sum of given array is "	+ sum());
+	}
 }
